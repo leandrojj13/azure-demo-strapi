@@ -3,7 +3,7 @@
 ### Run locally
 
 1. Pull down the repo
-2. Run `yarn install`
+2. Run `yarn install `
 3. Run `yarn develop`
 4. Go to http://localhost:1337/admin
 
