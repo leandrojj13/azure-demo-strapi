@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aplicacions",
+      "handler": "aplicacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aplicacions/count",
+      "handler": "aplicacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aplicacions/:id",
+      "handler": "aplicacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aplicacions",
+      "handler": "aplicacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aplicacions/:id",
+      "handler": "aplicacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aplicacions/:id",
+      "handler": "aplicacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
