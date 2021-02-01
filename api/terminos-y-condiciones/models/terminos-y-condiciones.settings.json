@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "terminos_y_condiciones",
+  "info": {
+    "name": "TerminosYCondiciones"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "texto": {
+      "type": "text"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "lista",
+        "parrafo"
+      ]
+    },
+    "bloque": {
+      "type": "integer"
+    }
+  }
+}

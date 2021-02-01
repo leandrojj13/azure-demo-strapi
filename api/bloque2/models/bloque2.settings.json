@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bloque2s",
+  "info": {
+    "name": "bloque2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "texto": {
+      "type": "text"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "orden": {
+      "type": "integer",
+      "unique": true
+    }
+  }
+}

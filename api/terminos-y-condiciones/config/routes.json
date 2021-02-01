@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/terminos-y-condiciones",
+      "handler": "terminos-y-condiciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/terminos-y-condiciones/count",
+      "handler": "terminos-y-condiciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/terminos-y-condiciones/:id",
+      "handler": "terminos-y-condiciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/terminos-y-condiciones",
+      "handler": "terminos-y-condiciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/terminos-y-condiciones/:id",
+      "handler": "terminos-y-condiciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/terminos-y-condiciones/:id",
+      "handler": "terminos-y-condiciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

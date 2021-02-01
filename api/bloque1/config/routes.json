@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bloque-1-s",
+      "handler": "bloque1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bloque-1-s/count",
+      "handler": "bloque1.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bloque-1-s/:id",
+      "handler": "bloque1.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bloque-1-s",
+      "handler": "bloque1.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bloque-1-s/:id",
+      "handler": "bloque1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bloque-1-s/:id",
+      "handler": "bloque1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
